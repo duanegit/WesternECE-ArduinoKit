@@ -12,6 +12,10 @@ Below is a list of the courses that some variant of this kit is used with for ei
  - **ToDo**: fill in table of parts list
  - **ToDo**: insert labelled image for reference
 
+![Kit Contents](./figures/'Uno-Kit-Starter-Kit-RFID-Learning-Suite-Labels.png "Contents of Arduino Kit")
+
+
+
 ## Code Samples
 
 This section provides code samples demostrating the operation of each component interfaced to the  *Arduino Uno R3* board included in the kit.
