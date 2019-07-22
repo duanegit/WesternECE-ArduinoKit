@@ -12,7 +12,7 @@ Below is a list of the courses that some variant of this kit is used with for ei
  - **ToDo**: fill in table of parts list
  - **ToDo**: insert labelled image for reference
 
-![Kit Contents](./figures/'Uno-Kit-Starter-Kit-RFID-Learning-Suite-Labels.png' "Contents of Arduino Kit")
+![Kit Contents](./figures/Uno-Kit-Starter-Kit-RFID-Learning-Suite-Labels.png "Contents of Arduino Kit")
 
 
 
