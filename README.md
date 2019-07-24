@@ -18,7 +18,7 @@ Below is a list of the courses that some variant of this kit is used with for ei
 | 8	| 220 Ohm resistors | B |   |   |	 	 
 | 5	| 1 KOhm resistors	| B	| 	|   |
 | 5	| 10 KOhm resistors	| B	| 	|   |
-| 3 | Photoresistors	| C	| Adafruit link |	| 
+| 3 | Photocell	| C	| [Adafruit link](https://learn.adafruit.com/photocells/overview) |   | 
 | 4	| Momentary Pushbuttons (yellow cap) |	D |	Descriptive Example |   |	 
 | 5	| yellow LED |	E |    |    |	 	 
 | 5	| red LED	| E	 |   |   | 	 
@@ -53,19 +53,37 @@ Below is a list of the courses that some variant of this kit is used with for ei
 | 1	| 5V unipolar stepper motor (28byj-48) | AE | Descriptive Example |   | 
 | 1	| Uln2003 Stepper motor driver board | AF | Example, Stepper library | Datasheet |
 
-## Code Samples
+## Part Description and Code Samples
 
-This section provides code samples demostrating the operation of each component interfaced to the  **Arduino Uno R3** board included in the kit.
+This section provides a description of each part in the kit and where appropriate some code samples demostrating the operation of each component interfaced to the  **Arduino Uno R3** board.  Some additional links may be provided to point you to further reading that will helpful for those that are new to creating embedded applications.
 
 **Note 1 :** some minor changes relate to pin assignment may be required if you are using a different board
 
-**Note 2 :** make sure that if another board is used, then it is selected in the Arduino IDE so that your source code compiles against the appropriate memory map.
+**Note 2 :** if you choose to use a different arduino board, then ensure it is selected in the Arduino IDE so that your source code compiles against the appropriate memory map.
 
-### Part A : 
+### Part A : *Uno Revision 3 board*
 
-### Part B :
+The Uno R3 is the most commonly used board in the Arduino platform family.  If you are new to using Arduino based microcontrollers then it is worthwhile to familiarize yourself with its layout.  In particular, note the number and type of I/O pins that are available for your use.
 
-### Part C :
+<https://store.arduino.cc/usa/arduino-uno-rev3>
+
+Be sure to look through **TECH SPECS** and **DOCUMENTATION** tabs on that page.
+
+### Part B : *Set of pin-through-hole resistors*
+
+The small set of resistors included are typical values that are commonly used with other parts in this kit.  It is likely that you will need to acquire additional resistors of other values depending on the external circuits you choose to build.  Below is a handy resistor colour code chart that will help you determine the resistance value.  Typically you will encounter 4-band resistors.
+
+![Colour Code Chart](./figures/resistor-res5.gif "Resistor colour code chart")
+
+### Part C : *Photocell (or photoresistor)*
+
+The photocell is a light-controlled variable resistor will change with exposure to light.  The units included have the following typical resistance values
+- reasonably bright room (100 Lux) : 5 Kohm
+- darkness : 1 Mohm
+
+[Adafruit link](https://learn.adafruit.com/photocells/overview) provided in the table above and here gives a nicely detailed explanation of photocells.
+
+It is a good idea to measure the ohmic value of the cell under the specific operating point (lighting conditions) for your application with a multimeter before you get started.
 
 ### Part D :
 
